@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+body {
+  margin-top: 2%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero h1 {
+  line-height: 105%;
+  width: 80rem;
+  text-align: center;
+  font-size: 67px;
+}
+
+.hero img {
+  width: 700px;
+  height: 700px;
+  margin-top: -4rem;
+  margin-bottom: -4rem;
+}
+
+.hero p {
+  line-height: 23px;
+  width: 30rem;
+  height: 46px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hero a {
+  text-decoration: underline;
+  color: #ff8701;
+}
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    line-height: 105%;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .hero img {
+    width: 450px;
+    height: 445px;
+  }
+  .hero p {
+    line-height: 23px;
+    width: 100%;
+    height: 46px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero h1 {
+    line-height: 105%;
+    width: 90%;
+    font-size: 45px;
+  }
+  .hero img {
+    width: 500px;
+    height: 500px;
+  }
+  .hero p {
+    line-height: 23px;
+    width: 60%;
+    height: 46px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=thankyou.css.map */
