@@ -43,6 +43,9 @@ body {
     
 }
 @media screen and (max-width: 600px){
+    body {
+        overflow-x: hidden;
+    }
     .hero {
         h1 {
             line-height: 105%;
@@ -64,6 +67,9 @@ body {
     }
 }
 @media screen and (max-width: 1200px){
+    body {
+        overflow-x: hidden;
+    }
     .hero {
         h1 {
             line-height: 105%;
@@ -77,8 +83,8 @@ body {
         p {
             line-height: 23px;
             width: 60%;
-            height: 46px; 
             font-size: 18px;
+            padding-bottom: 3rem;
         }
     }
 }
