@@ -2,6 +2,7 @@
 body {
   margin-top: 2%;
   font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -60,10 +61,25 @@ body {
   color: #ff8701;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    overflow-x: hidden;
+@media screen and (max-width: 1200px) {
+  .hero h1 {
+    line-height: 105%;
+    width: 90%;
+    font-size: 45px;
   }
+  .hero img {
+    width: 500px;
+    height: 500px;
+  }
+  .hero p {
+    line-height: 23px;
+    width: 30rem;
+    font-size: 18px;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .hero h1 {
     line-height: 105%;
     width: 90%;
@@ -76,30 +92,10 @@ body {
   }
   .hero p {
     line-height: 23px;
-    width: 100%;
+    width: 20rem;
     height: 46px;
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    overflow-x: hidden;
-  }
-  .hero h1 {
-    line-height: 105%;
-    width: 90%;
-    font-size: 45px;
-  }
-  .hero img {
-    width: 500px;
-    height: 500px;
-  }
-  .hero p {
-    line-height: 23px;
-    width: 60%;
-    font-size: 18px;
     padding-bottom: 3rem;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=thankyou.css.map */
